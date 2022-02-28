@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@500&family=Roboto+Slab:wght@900&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    background-color:black;
+    font-family: "Roboto Serif";
+}
+.grid{
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+.hero {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}   
+#main{
+    background-color:white;
+    max-width: 365px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: gray;
+    text-align: center;
+}
+h1 {
+    color: black;
+}
+p {
+    font-size: 1.5em;
+}
+.title h2{
+    color: #445b8d;
+    font-size: 15px;
+}
+footer{
+    background-color: #445b8d;
+    color:white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
