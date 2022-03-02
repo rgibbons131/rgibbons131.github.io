@@ -1,0 +1,32 @@
+body, h1,h2,h3,h4,h5,h6,ul,li,p{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #ced7e4;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color:#5998ce;
+}
+
+main {
+    font-size:19px;
+    display: grid;
+    grid-template-columns: 250px 460px ;
+    gap: 60px;
+    margin:10px auto;
+    width: 808px;
+    color:#37455e;
+    font-family:'Vollkorn', serif;
+}
+
+h2{
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+
+main ul{
+    list-style: none;
+}
