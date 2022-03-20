@@ -1,0 +1,102 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #1E3F20;
+}
+
+#content {
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    background-color: #1E3F20;
+    color:black;
+    margin:0 auto;
+    max-width: 1600px;
+    margin:0 auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #1A1F16;
+}
+.logo {
+    margin-top: 5px;
+    width:80px;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-align:center;
+    text-decoration: none;
+    color:white;
+    padding:35px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#logo_link{
+    padding-top:5px;
+    justify-self: center;
+    align-self: center;
+}
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+#home-img {
+    grid-row: 1/-1;
+    justify-self: center;
+    z-index: 1;
+}
+#overview h1{
+    background-color: #4A7856;
+    margin-left: -100px;
+    text-align: center;
+}
+#overview p{
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+#sign-up {
+    margin-left: -100px;
+    background-color: #4A7856;
+    text-align: center;
+}
+#sign-up-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #1A1F16;
+    color:white;
+    text-decoration: none;
+}
+#sign-up-button:hover{
+    background-color: #1E3F20;
+    text-decoration: underline;
+}
+footer {
+    background-color: #1A1F16;
+    color:white;
+    height: 200px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#1E3F20
+}
+
+footer .social img{
+    padding-top:15px;
+}
