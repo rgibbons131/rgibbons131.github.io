@@ -44,7 +44,8 @@ a:hover {
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-main {
+/*Home CSS*/
+#grid_home {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
@@ -80,6 +81,47 @@ main {
     background-color: #1E3F20;
     text-decoration: underline;
 }
+
+/*Gallery CSS*/
+#gallery {
+    justify-content:space-around;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:25px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.show{
+    width: 350px;
+    margin:20px 5px;
+    padding-top: 25px;
+    display: grid;
+    grid-template-rows: auto;
+    text-decoration: none;
+}
+
+.show:hover{
+    background-color: #4A7856;
+    text-decoration: none;
+}
+
+.card{
+    width: 300px;
+    height: 375px;
+    justify-self: center;
+}
+
+.title{
+    font-weight:bold;
+    font-size:1.3em;
+    text-decoration: none;
+    color:black;
+}
+
+
+/*Footer CSS*/
 footer {
     background-color: #1A1F16;
     color:white;

@@ -4,53 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watchlist | Main</title>
+    <title>Watchlist | Gallery</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">
-                <img src="" alt="logo">
+    <div id="content">
+        <header>
+            <a href="index.html" id="logo-link">
+                <img class="logo" src="images/rsz_logo.jpg" alt="logo">
             </a>
-            <a href="index.html">Home</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="showsummary.html">Show Summary</a>
-            <a href="sign-up.html">Sign-Up</a>
-        </nav>
-    </header>
-    <main>
-        <div id="gallery">
-            <div class="show" id="show1">
-                <img class="card" src="images/knight.jpg" alt="knight">
-                <h3 class="title">Knight Man</h3>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="showsummary.html">Show Summary</a>
+                <a href="sign-up.html">Sign-Up</a>
+            </nav>
+        </header>
+        <main>
+            <div id="gallery">
+                <a href="showsummary.html" class="show">
+                    <img class="card" src="images/knight.jpg" alt="knight">
+                    <h3 class="title">Knight Man</h3>
+                </a>
+                <a href="showsummary.html" class="show">
+                    <img class="card" src="images/wizard.jpg" alt="wizard">
+                    <h3 class="title">The completely original Modern-Day Wizard</h3>
+                </a>
+                <a href="showsummary.html" class="show">
+                    <img class="card" src="images/scientist.jpg" alt="scientist">
+                    <h3 class="title">The man who held a sparkler way to close to his beard</h3>
+                </a>
+                <a href="showsummary.html" class="show">
+                    <img class="card" src="images/wizard.jpg" alt="wizard">
+                    <h3 class="title">The completely original Modern-Day Wizard</h3>
+                </a>
+                <a href="showsummary.html"  class="show">
+                    <img class="card" src="images/scientist.jpg" alt="scientist">
+                    <h3 class="title">The man who held a sparkler way to close to his beard</h3>
+                </a>
             </div>
-            <div class="show" id="show2">
-                <img class="card" src="images/wizard.jpg" alt="wizard">
-                <h3 class="title">The completely original Modern-Day Wizard</h3>
-            </div>
-            <div class="show" id="show2">
-                <img class="card" src="images/scientist.jpg" alt="scientist">
-                <h3 class="title">The man who held a sparkler way to close to his beard</h3>
-            </div>
-        </div>
-    </main>
-    <footer>
+        </main>
         <footer>
-            <h3>Watchlist &copy; 2022 Richard Gibbons</h3>
-            <h3><a href="site_plan.html">Site Plan</a></h3>
-            <h3><a href="sign-up.html">sign-up</a></h3>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="Images/facebook.png" alt="facebook icon" />
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="Images/twitter.png" alt="twitter icon" />
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="Images/instagram.png" alt="instagram icon" />
-                </a>
-            </div>
+            <footer>
+                <h3>Watchlist &copy; 2022 Richard Gibbons</h3>
+                <h3><a href="site_plan.html">Site Plan</a></h3>
+                <h3><a href="sign-up.html">sign-up</a></h3>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="Images/facebook.png" alt="facebook icon" />
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="Images/twitter.png" alt="twitter icon" />
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="Images/instagram.png" alt="instagram icon" />
+                    </a>
+                </div>
+            </footer>
         </footer>
-    </footer>
+    </div>
 </body>
 </html>
