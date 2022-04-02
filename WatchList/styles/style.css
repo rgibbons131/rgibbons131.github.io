@@ -94,6 +94,13 @@ a:hover {
     text-align: center;
 }
 
+.gallery-info{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    padding-left:50px ;
+    padding-right:50px ;
+}
+
 .show{
     width: 350px;
     margin:20px 5px;
