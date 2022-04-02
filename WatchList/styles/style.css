@@ -121,6 +121,88 @@ a:hover {
     color:black;
 }
 
+/*Show summary CSS*/
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 550px;
+    overflow:hidden;
+}
+
+#hero-msg{
+    text-align: center;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    z-index: 1;
+    font-size: 3.5em;
+}
+
+.hero img{
+    margin-top:-125px ;
+    grid-column: 1/-1;
+    grid-row:1/-1;
+    z-index: 0;
+}
+
+.sum-grid{
+    background-color: #4A7856;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.summary, .review{
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6em ;
+    margin: 40px 20px 15px;
+    justify-content: center;
+    
+}
+
+.survey-watched{
+    align-content: center;
+    grid-column: 1/-1;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 125px;
+    width: 100% ;
+
+}
+
+.watched, .survey{
+    color: white;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 1.2em;
+    width:125px;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+    border-width: 0px;
+    background-color:#1E3F20;
+}
+
+.watched:hover, .survey:hover{
+    color:#1A1F16;
+    background-color:white;
+    cursor: pointer;
+}
+
+.button-mover-1{
+    text-align: right;
+    margin-right:7.5px;
+}
+.button-mover-2{
+    text-align: left;
+    margin-left:7.5px;
+}
+
+.watched{
+    margin:0 auto;
+}
+
+.survey{
+    margin:0 auto;
+}
 
 /*Footer CSS*/
 footer {
