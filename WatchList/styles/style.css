@@ -130,6 +130,7 @@ a:hover {
 
 /*Show summary CSS*/
 .hero {
+    background-color: #0D0F0B;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 550px;
@@ -149,6 +150,7 @@ a:hover {
     grid-column: 1/-1;
     grid-row:1/-1;
     z-index: 0;
+    justify-self: center;
 }
 
 .sum-grid{
