@@ -64,6 +64,7 @@ a:hover {
 #overview p{
     font-size: 1.2em;
     padding-right: 20px;
+    line-height: 1.5em;
 }
 #sign-up {
     margin-left: -150px;
@@ -96,9 +97,15 @@ a:hover {
 
 .gallery-info{
     font-size: 1.3em;
-    line-height: 1.4em;
+    line-height: 1.6em;
     padding-left:50px ;
     padding-right:50px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:500px ;
+    margin:50px auto;
+    background-color: #4A7856;
+    border-radius: 12px;
 }
 
 .show{
@@ -113,6 +120,7 @@ a:hover {
 .show:hover{
     background-color: #4A7856;
     text-decoration: none;
+    border-radius: 12px;
 }
 
 .card{
@@ -143,6 +151,8 @@ a:hover {
     grid-row: 1/-1;
     z-index: 1;
     font-size: 3.5em;
+    background-color: #ffffff53;
+    max-height: 95px;
 }
 
 .hero img{
@@ -175,7 +185,8 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     height: 125px;
     width: 100% ;
-
+    box-sizing: border-box;
+    border:none;
 }
 
 .watched, .survey{
@@ -213,6 +224,96 @@ a:hover {
     margin:0 auto;
 }
 
+/*Sign up CSS*/
+form {
+    /* Center the form on the page */
+    margin: 50px auto;
+    width: 400px;
+    background-color: #4A7856;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }
+  #feedback {
+      background-color: antiquewhite;
+      top: 1;
+      left: 0;
+      right: 0;
+      padding: .5em;
+      /* make this element invisible until we are ready for it */
+      display: none;       
+  }
+  .moveDown {
+      margin-top: 3em;
+  }
+#sign_up_paragraph{
+    background-color: #4A7856;
+    font-size: 1.2em;
+    width: 400px;
+    text-align: left;
+    margin:0 auto 50px;
+    padding: 10px 25px ;
+    line-height: 1.6em;
+    border-radius: 12px;
+}
+
 /*Footer CSS*/
 footer {
     background-color: #1A1F16;
@@ -222,6 +323,7 @@ footer {
     display:flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10%;
 }
 footer a{
     color:white;
