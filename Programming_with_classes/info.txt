@@ -1,1 +1,0 @@
-This is a spring programming class that will be in C#
